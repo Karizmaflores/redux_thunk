@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import Chart from '../components/Chart'
+// import Chart from '../components/Chart'
 
 const mapStateToProps = (state) => {
     return {
@@ -7,4 +7,6 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps)(Chart)
+export default connect(mapStateToProps)
+// export default connect(mapStateToProps)(Chart)
+
